@@ -153,7 +153,7 @@ export class EmployeComponent implements OnInit {
           ),
         Swal.fire(
           'Terminé',
-          'Cet emplyé a bien été supprimé.',
+          'Cet employé a bien été supprimé.',
           'success'
         );
       }
