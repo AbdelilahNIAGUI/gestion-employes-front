@@ -1,0 +1,80 @@
+.parent {
+  margin: 15px;
+
+  table {
+    width: 100%;
+  }
+
+  .id-column {
+    font-weight: bold;
+  }
+
+  td,
+  th {
+    width: 15%;
+    text-align: center;
+  }
+
+  .mat-table {
+    background: white;
+  }
+
+  .mat-header-cell {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    background-color: #0072b1;
+  }
+
+  .mat-cell,
+  .mat-footer-cell {
+    color: black;
+  }
+
+  mat-footer-row,
+  mat-header-row,
+  mat-row,
+  td.mat-cell,
+  td.mat-footer-cell,
+  th.mat-header-cell {
+    border-bottom: 1px solid #e1e4e8 !important;
+  }
+
+  .action {
+    width: 10%;
+  }
+
+  .add {
+    color: white;
+    background: #0c99e6;
+  }
+
+  .delete {
+    color: red;
+    background-color: whitesmoke;
+  }
+
+  .edit {
+    color: #0072b1;
+    background-color: whitesmoke;
+  }
+
+  .paginator {
+    font-size: 14px;
+    width: 100%;
+    background: white;
+    color: #547182;
+
+    .mat-select-value {
+      color: #547182;
+    }
+  }
+
+  .mat-form-field-wrapper {
+
+    .mat-form-field-underline {
+      background: #547182;
+    }
+  }
+}
