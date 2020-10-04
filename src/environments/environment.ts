@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  apiUrl: 'http://localhost:8080/gestion-employes'
+  apiUrl: 'https://gestion-employes.herokuapp.com/gestion-employes'
 };
 
 /*
