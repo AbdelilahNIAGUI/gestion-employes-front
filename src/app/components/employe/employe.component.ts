@@ -43,8 +43,7 @@ export class EmployeComponent implements OnInit {
         // this.employes = this.data,
         this.dataSource = new MatTableDataSource(this.data),
         this.dataSource.paginator = this.paginator,
-        this.dataSource.sort = this.sort,
-        console.log('data : ', this.data);
+        this.dataSource.sort = this.sort
       }
     );
   }
